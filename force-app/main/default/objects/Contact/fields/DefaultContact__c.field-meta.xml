@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DefaultContact__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field represents whenever account will create if the type as customer and active is checked then automatically default contact will create</description>
+    <externalId>false</externalId>
+    <label>DefaultContact</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

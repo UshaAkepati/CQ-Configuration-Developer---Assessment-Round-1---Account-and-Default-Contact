@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>validation_on_account_summary</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( Active__c = True, ISBLANK( Account_Activation_Summary__c ))</errorConditionFormula>
+    <errorMessage>Account Activation Summary is required when activating an account.</errorMessage>
+</ValidationRule>
